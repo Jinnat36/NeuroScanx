@@ -6,15 +6,18 @@ import KeyFeatures from "./components/KeyFeatures";
 import UserReviews from "./components/UserReviews";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import SeacondNav from "./components/SeacondNav";
 import HowItWork from "./components/HowItWork";
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <SeacondNav />
       <div className="pt-16">
         <Routes>
           <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={< />} /> */}
           <Route path="/user-reviews" element={<UserReviews />} />
 
           {/* Uncomment when pages are ready */}

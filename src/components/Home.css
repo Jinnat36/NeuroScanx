@@ -2,7 +2,7 @@
     width: 100%;
     height: 95vh;
     margin-top: 56px;
-    background-image: url('E:\React\bs\src\components\images\home.jpg'); /* Relative path from the public folder */
+    background-image: url('E:\React\Neuroscanx\src\components\images\home.jpg'); /* Adjust the relative path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
